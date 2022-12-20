@@ -1,0 +1,56 @@
+@import "../node_modules/animate.css/animate.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Merriweather:wght@300;400;700&display=swap');
+$font-family-sans-serif:'Cabin';
+$headings-font-family:'Merriweather';
+$navbar-nav-link-padding-x:1.5rem;
+$success:hsl(206, 4%, 42%);
+$primary:hsl(36, 72%, 48%);
+$body-bg: #F3EFE0;
+// $opacity-light:hsl(206, 4%, 42%);
+// $line-height-base: 2;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+.vertical{
+    vertical-align: top;
+};
+.dark-bg{
+background-image: radial-gradient(circle at 99% 33%, hsla(235,0%,48%,0.03) 0%, hsla(235,0%,48%,0.03) 37%,transparent 37%, transparent 100%),radial-gradient(circle at 46% 16%, hsla(235,0%,48%,0.03) 0%, hsla(235,0%,48%,0.03) 43%,transparent 43%, transparent 100%),radial-gradient(circle at 99% 25%, hsla(235,0%,48%,0.03) 0%, hsla(235,0%,48%,0.03) 22%,transparent 22%, transparent 100%),radial-gradient(circle at 57% 88%, hsla(235,0%,48%,0.03) 0%, hsla(235,0%,48%,0.03) 86%,transparent 86%, transparent 100%),radial-gradient(circle at 82% 78%, hsla(235,0%,48%,0.03) 0%, hsla(235,0%,48%,0.03) 22%,transparent 22%, transparent 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));
+}
+.home-img{
+    height:100vh;
+};
+.scroll-img{
+    height: 80px;
+    top: 50%;
+    right: 47%;
+};
+.card-icon{
+    height:40px;
+}
+.card-color{
+    background-color:  rgb(199, 194, 194);
+}
+.cotainer-color{
+    background-color: hsl(0, 0%, 90%);
+};
+.blog-after{
+    position: absolute;
+}
+.blog-after::after{
+content: 'img';
+position: absolute;
+bottom: 0;
+right: 0;
+}
+    
+// #cake,#coffee,#cokiee{
+//     display: none;
+// };
+// .cake-link:active #cake{
+//     display:flex;
+// };
+// .coffee-link:active #coffee{
+//     display:flex;
+// };
+// .cokiee-link:active #cokiee{
+//     display:flex;
+// };
