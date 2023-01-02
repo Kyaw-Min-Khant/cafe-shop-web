@@ -5,7 +5,7 @@ $headings-font-family:'Merriweather';
 $navbar-nav-link-padding-x:1.5rem;
 $success:hsl(206, 4%, 42%);
 $primary:hsl(36, 72%, 48%);
-$body-bg: #F3EFE0;
+$body-bg: #D7E9B9;
 // $opacity-light:hsl(206, 4%, 42%);
 // $line-height-base: 2;
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
@@ -40,6 +40,14 @@ content: 'img';
 position: absolute;
 bottom: 0;
 right: 0;
+}
+.product-item:hover img{
+    transform: scale(1.2);
+    transition: .8s;
+}
+.menu-hover:hover img{
+    transform: scale(0.8);
+    transition: .8s;
 }
     
 // #cake,#coffee,#cokiee{
